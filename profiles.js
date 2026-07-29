@@ -1,2 +1,3 @@
 const profiles = []
-const profile =""
+const profile = {}
+const test = "test"
