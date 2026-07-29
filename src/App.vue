@@ -1,0 +1,41 @@
+<template>
+        <div id="display-view">    
+
+            <h1>User profile</h1>
+            <img src="profile-T.png">
+            <span>Name: </span><b id="name">Anna Smith</b>
+            <hr />
+
+            <span>Email: </span><b id="email">anna.smith@example.com</b>
+            <hr />
+
+            <span>Interests: </span><b id="interests">coding</b>
+            <hr />
+            <button onclick="handleEditProfile()">Edit Profile</button>
+        </div>
+        <div id="edit-view">
+            <h1>User profile</h1>
+            <img src="profile-T.png">
+            
+            <span>Name: </span>
+            <input type="text" id="input-name" placeholder="Anna Smith"/>
+            <hr />
+
+            <span>Email: </span>
+            <input type="text" id="input-email" placeholder="anna.smith@example.com" />
+            <hr />
+
+            <span>Interests: </span>
+            <input type="text" id="input-interests" placeholder="coding" />
+            <hr />
+
+
+            <button onclick="handleUpdateProfile()">Update Profile</button>
+        </div>
+</template>
+<script>
+export default{
+    name: "App"
+}
+</script>
+<style></style>
