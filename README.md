@@ -1,5 +1,5 @@
 # teamable_Vue
-This is an application for managing employee profiles
+This is an application for managing employee user profiles
 
 #To run the test execute
 npm run test
